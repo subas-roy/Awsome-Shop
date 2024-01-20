@@ -8,3 +8,48 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+/* navbar style starts here */
+.header {
+    background-color: #9376e0;
+}
+.header-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-container {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.nav-container img {
+    width: 90px;
+}
+.nav-container p {
+    font-size: 25px;
+}
+.special {
+    color: #e893cf;
+    font-weight: 600;
+}
+.items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.login-button {
+    padding: 10px 20px;
+    background-color: #e893cf;
+    border-radius: 5px;
+}
+.items-container .login-button a {
+    color: black;
+}
