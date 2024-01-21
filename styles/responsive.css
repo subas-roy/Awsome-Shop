@@ -8,5 +8,15 @@
         margin-left: 50px;
         gap: 20px;
     }
+    .banner-section {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+    .text-container {
+        width: 100%;
+    }
+    .banner-image-container {
+        width: 100%;
+    }
     
 }

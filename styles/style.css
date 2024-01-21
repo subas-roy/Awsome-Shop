@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
     margin: 0;
@@ -52,4 +52,81 @@ body {
 }
 .items-container .login-button a {
     color: black;
+}
+
+
+/* banner section styles */
+.banner-section {
+    /* border: 2px solid rebeccapurple; */
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    background-color: #e6e9eb;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-container {
+    /* border: 2px solid red; */
+    width: 50%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.banner-image-container {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    min-height: 300px;
+    position: relative;
+}
+.banner-image-container img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text-container h1, p, span {
+    font-size: 45px;
+}
+.banner-heading {
+    background: linear-gradient(45deg, #e893cf, #9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+}
+#collections {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+.fa-brands {
+    font-size: 45px;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+}
+.common-button {
+    /* border: 2px solid #e893cf; */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner-image-container img {
+    width: 100%;
+}
+.discount {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(128, 128, 16);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 70%;
+    left: 60%;
 }
