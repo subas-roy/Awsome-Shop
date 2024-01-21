@@ -89,9 +89,9 @@ body {
     object-fit: cover;
     border-radius: 10px;
 }
-.text-container h1, p, span {
+/* .text-container h1, p, span {
     font-size: 45px;
-}
+} */
 .banner-heading {
     background: linear-gradient(45deg, #e893cf, #9376e0);
     background-clip: text;
@@ -129,4 +129,34 @@ body {
     position: absolute;
     bottom: 70%;
     left: 60%;
+}
+
+
+/* products styles */
+.product-section {
+    max-width: 1250px;
+    margin: 30px auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.single-product {
+    padding: 10px;
+}
+.single-product img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.heading-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-solid {
+    background-color: #e893cf;
+    padding: 10px;
+    border-radius: 50px;
 }
